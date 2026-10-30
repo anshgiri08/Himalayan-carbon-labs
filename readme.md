@@ -6,7 +6,7 @@ We built this during Hacktoberfest to solve a real problem: measuring forest bio
 
 ##  Hacktoberfest 2026 - Prize Categories
 We specifically built and deployed this project to align with the hackathon tracks:
-*   **Best Open-Source AI Project (DigitalOcean):** Hosted on DigitalOcean App Platform using open-weights AI.
+*   **Best Open-Source AI Project (DigitalOcean):** we will Host our project on DigitalOcean App Platform using open-weights AI.
 *   **Best Use of Gemma 4:** Integrated Google's lightweight Gemma 4 model via the Gemini API to create a localized AI assistant for farmers.
 
 ##  What's inside?
