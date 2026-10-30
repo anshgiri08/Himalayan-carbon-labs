@@ -7,6 +7,8 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors'
 }).addTo(map);
 
+//marker for Van Panchayat office 
+L.marker([30.7268, 78.4354]).addTo(map).bindPopup("<b>Uttarkashi HQ</b><br>Monitoring Centere");
 // Draw a polygon (Mock Forest Area)
 const forestArea = [
     [30.7350, 78.4400],
