@@ -26,9 +26,9 @@ Carbon market jargon is confusing for local farmers. We integrated **Gemma 4** u
 Gemma 4 processes this and replies in a simple, localized format. We chose Gemma 4 because its lightweight architecture gives us fast inference times without burning a hole in our API budget.
 
 ### 2. The Infrastructure (DigitalOcean)
-We used **DigitalOcean** to host our entire stack. 
-*   **App Platform:** Used to deploy our frontend dashboard directly from this GitHub repo.
-*   **Spaces (Object Storage):** Used to store the generated PDF reports and satellite image crops securely, ensuring we don't bloat the main server.
+We will use **DigitalOcean** to host our entire stack. 
+*   **App Platform:** will be Use to deploy our frontend dashboard directly from this GitHub repo.
+*   **Spaces (Object Storage):** will be Use to store the generated PDF reports and satellite image crops securely, ensuring we don't bloat the main server.
 *   **Droplets:** Running a lightweight backend container to handle API requests between the frontend and the Gemini API.
 
 ##  Repository Structure
