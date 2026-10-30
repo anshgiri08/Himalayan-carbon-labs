@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Himalayan Carbon Labs</title>
-    <!-- Tailwind CSS -->
+    
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Leaflet Map CSS -->
+    
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
@@ -15,16 +15,16 @@
 </head>
 <body class="bg-gradient-to-br from-green-950 via-emerald-900 to-teal-950 text-white min-h-screen">
 
-    <!-- Navbar -->
+    
     <nav class="p-4 flex justify-between items-center glass shadow-lg">
         <h1 class="text-2xl font-bold text-green-400">🌲 Himalayan Carbon Labs</h1>
         <button onclick="generatePDF()" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold transition">Download Report</button>
     </nav>
 
-    <!-- Main Content (ID used for PDF) -->
+   
     <main id="dashboard-content" class="p-6 max-w-7xl mx-auto space-y-6">
         
-        <!-- Stats Cards -->
+        
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="glass p-6 rounded-xl text-center">
                 <h3 class="text-gray-400 text-sm">Total Area Mapped</h3>
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <!-- Map and Chart Section -->
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="glass p-4 rounded-xl h-[400px]">
                 <h3 class="text-lg font-semibold mb-2">Pilot Area (Uttarkashi)</h3>
@@ -52,7 +52,7 @@
             </div>
         </div>
 
-        <!-- Calculator Section -->
+        
         <div class="glass p-6 rounded-xl flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
                 <h3 class="text-xl font-semibold text-green-300">Carbon Estimator</h3>
@@ -65,12 +65,12 @@
         </div>
     </main>
 
-    <!-- Scripts will be added by other members -->
+   
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     
-    <!-- Link external JS files (Member 2 & 3 will create these) -->
+    
     <script src="map-chart.js"></script>
     <script src="calculator-report.js"></script>
 </body>
