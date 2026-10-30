@@ -1,10 +1,10 @@
-# Himalayan Carbon Labs 🌲
+# Himalayan Carbon Labs
 
 A satellite-based MRV (Measurement, Reporting, and Verification) dashboard for forest carbon credits, built specifically for the Uttarakhand region. 
 
 This project was developed as a prototype to help local communities (like Van Panchayats) and the state government measure forest biomass and estimate carbon credits without cutting any trees.
 
-## 🚀 What's inside?
+##  What's inside?
 
 This repository contains the full proof-of-concept stack, including frontend UI, backend structure, and Google Earth Engine scripts.
 
@@ -14,7 +14,7 @@ This repository contains the full proof-of-concept stack, including frontend UI,
 *   **PDF Export:** One-click report generation for sharing data with stakeholders.
 *   **GEE Scripts:** Python/JavaScript scripts for satellite data processing (Sentinel-2/Landsat).
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 ├── backend/          # Server-side logic and API endpoints
